@@ -32,6 +32,10 @@
   "jest": {
     "preset": "react-native"
   },
+  "repository" : {
+    "type" : "git",
+    "url": "https://github.com/RahulTinku/vsmart"
+  },
   "engines": {
     "node": "8.x"
   }
