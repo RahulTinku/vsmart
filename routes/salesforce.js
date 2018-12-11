@@ -28,10 +28,10 @@ const oauth2 = new jsforce.OAuth2({
     // you can change loginUrl to connect to sandbox or prerelease env.
     loginUrl : 'https://cs20.salesforce.com',
     //clientId and Secret will be provided when you create a new connected app in your SF developer account
-    clientId : '3MVG9RHx1QGZ7OsjVY6Zj_Kd54l0WY6p8fHnONkRzpdqJbjmWPmHRvAg4e.IsFbEQ0TdaUpPVA8lHJ6ZkpAyl',
-    clientSecret : '8404019159664868886',
+    clientId : '3MVG9RHx1QGZ7OsjVY6Zj_Kd54l8289FMjzvIIugQPOtHsHdK2rOinygcA6KHRXlYPc9vpUIcCcKlTHPHFs_T',
+    clientSecret : '7866951494402624538',
     //redirectUri : 'http://localhost:' + port +'/token'
-    redirectUri : 'http://localhost:8080/token'
+    redirectUri : 'https://vsmartdemo.herokuapp.com/token'
 });
 
 // Serve static assets
