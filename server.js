@@ -23,6 +23,10 @@ app.use(function(req,res,next) {
 	res.header('Access-Control-Allow-Methods', 'GET, POST, PUT, DELETE, OPTIONS');
 	next();
 });
+app
+.set('views', path.join(__dirname, 'views'))
+  .set('view engine', 'ejs')
+  .get('/', (req, res) => res.render('pages/index'))
 
 //initialize session
 app.use(session({secret: 'S3CRE7', resave: true, saveUninitialized: true}));
