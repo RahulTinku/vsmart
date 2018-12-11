@@ -14,7 +14,7 @@ var salesforce = require('./routes/salesforce');
 
 const app = express();
 
-var port = 8080;
+var port = process.env.PORT || 8080;
 var db = mongojs('mongodb://rahul:rahul123@ds125684.mlab.com:25684/powersupport', ['users']);
 
 app.use(function(req,res,next) {
