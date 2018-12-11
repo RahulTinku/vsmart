@@ -1,0 +1,7 @@
+{
+  "name": "vsmart",
+  "description": "vsmart",
+  "repository": "https://github.com/RahulTinku/vsmart",
+  "keywords": ["node", "express", "heroku"],
+  "image": "heroku/nodejs"
+}
